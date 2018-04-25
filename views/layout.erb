@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <title>Opinion Collector</title>
+</head>
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Opinion Collector</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="/">HOME</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+        
+  <%= yield %>
+
+  </main>
+  <footer class="page-footer" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Thanks for sharing</h5>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2018 Copyright Text
+      </div>
+    </div>
+  </footer>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="./js/main.js"></script>
+
+</body>
+
+</html>

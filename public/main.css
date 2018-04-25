@@ -1,0 +1,16 @@
+h2{
+    text-align: center;
+}
+
+.nav-wrapper{
+    background-color: #ff9f1a;
+}
+
+#footer{
+    background-color: #ff9f1a !important
+}
+
+main{
+    height: 800px;
+}
+
