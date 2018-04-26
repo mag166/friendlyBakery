@@ -25,7 +25,6 @@ end
 post "/" do
     from = Email.new(email: 'minhal@bakery.com')
     to = Email.new(email: params[:email])
-    puts params[:comment]
     puts ENV["SENDGRID"]
     subject = 'Bakery Catalog for ' + params[:name]
     content = Content.new(type: 'text/html', value:"
