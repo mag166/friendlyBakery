@@ -1,3 +1,22 @@
+h2{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+
+h5{
+    font-family: 'Lobster', cursive;
+}
+
+#welcomeText{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+h2{
+    font-family: 'Lobster', cursive;
+}
 
 #cakes{
     text-align: center;
@@ -12,7 +31,7 @@ body{
 
 
 #intro{
-    height: 800px;
+    height: 700px;
 }
 #footer{
     background-color: #3498db;
@@ -31,6 +50,7 @@ body{
     position: absolute;
     left:65px;
     top:-20px;
+    font-family: 'Lobster', cursive;
 }
 #parralaxImage{
     width: 500px;
