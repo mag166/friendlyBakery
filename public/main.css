@@ -1,16 +1,58 @@
-h2{
+
+#cakes{
     text-align: center;
 }
-
 .nav-wrapper{
-    background-color: #ff9f1a;
+    background-color: #3498db;
 }
 
-#footer{
-    background-color: #ff9f1a !important
+body{
+    background-color: #2980b9
 }
 
-main{
+
+#intro{
     height: 800px;
 }
+#footer{
+    background-color: #3498db;
+}
 
+.foodHeader{
+    text-align: center;
+    color: white
+}
+
+.quantity{
+    text-align: center;
+    color: white
+}
+#top{
+    position: absolute;
+    left:65px;
+    top:-20px;
+}
+#parralaxImage{
+    width: 500px;
+}
+
+/* .card{
+    width:260px;
+    height: 260px;
+}
+
+.card img{
+    height:200px;
+    width:200px;
+} */
+
+
+#logo{
+    width:60px;
+    position: relative;
+    top:3px;
+}
+
+.parallax-container{
+    height: 600px;
+}
