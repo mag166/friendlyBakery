@@ -17,7 +17,7 @@
 
 ## Screenshots:
 * Home Page:
-<img src="screenshots/screen1.png" alt="mobile demo" width="350">
+<img src="screenshots/screen1.gif" alt="mobile demo" width="350">
 
 * Product Page:
 <img src="screenshots/screen2.png" alt="mobile demo" width="350">
